@@ -36,20 +36,24 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_4a85dce302744c1ca09fe7823612de65: 0.3
     - Vector1_5076c4fd58f04afeb16055bea9e2db95: 7.25
     - Vector1_5b0a3fbe223d4e3faf065e0d605d815f: 0.48
-    - Vector1_70acaf04608344e0aad625a191e4ea62: 0.72
+    - Vector1_672383693c70478a8dbdd095f8285ebb: 4
+    - Vector1_70acaf04608344e0aad625a191e4ea62: 1
     - Vector1_75fb4d0731884b398a368c6d7abc851b: -4.36
-    - Vector1_ce4209b987b54b9297c4eae2ff6bc982: 0.33
-    - Vector1_fcf893d90a1e441ca9b7edde116edea2: 0
+    - Vector1_ce4209b987b54b9297c4eae2ff6bc982: -0.3
+    - Vector1_d0d5ce8ef22e4a0eb086bd3cb01b013e: -12.3
+    - Vector1_fcf893d90a1e441ca9b7edde116edea2: 1
     - _Glow: 0.2
-    - _MaxStripeWidth: 0.043
-    - _NoiseScale: 1
+    - _MaxStripeWidth: 0
+    - _NoiseScale: 4.44
     - _Noise_Scale: 3
-    - _StripeStart: 1
+    - _StripeStart: 0.199
     m_Colors:
     - Vector3_66491000aa794b63be6b0a7ff1dff60b: {r: 1.1, g: 1.1, b: 1.1, a: 0}
-    - Vector3_b046a23250d14f3297b958d3bfbd2c43: {r: 11.86, g: 0, b: -47.6, a: 0}
+    - Vector3_b046a23250d14f3297b958d3bfbd2c43: {r: 5, g: 0, b: -1.06, a: 0}
     - Vector3_c8605e8d1e6e4caeb6847bbec3162c02: {r: 19.2, g: 40.07, b: 0, a: 0}
-    - _Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 0.039215688}
+    - Vector3_ddb4c38aad2144c1a8d49550ad817e51: {r: 1.1, g: 1.1, b: 1.1, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0.3137255}
   m_BuildTextureStacks: []
