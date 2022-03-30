@@ -9617,7 +9617,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ce8f0460c40a459ca726266e7b46ce54",
     "m_Id": 0,
-    "m_DisplayName": "Warp Speed",
+    "m_DisplayName": "Band Speed",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
