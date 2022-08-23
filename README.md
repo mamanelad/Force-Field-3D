@@ -32,10 +32,8 @@ What would we improve given more time?
   
 ## Photos
 
-  <h3>Gameplay:</h3>
 <p align="center">
- <img src="Images/Screenshot 2022-08-23 185026.png" width="400"/>
- <img src="Images/Screenshot 2022-08-23 185113.png" width="400"/>
- <img src="Images/Screenshot 2022-08-23 185222.png" width="400"/>
- <img src="Images/WhatsApp Image 2022-08-22 at 2.05.12 PM (1).jpeg" width="400"/>
+ <img src="Images/Screenshot 2022-08-23 192033.png" width="400"/>
+ <img src="Images/Screenshot 2022-08-23 192206.png" width="400"/>
+ <img src="Images/WhatsApp Image 2022-08-23 at 7.07.52 PM.jpeg" width="400"/>
 </p>
