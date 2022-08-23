@@ -1,69 +1,41 @@
-
-
-<h1 align="center">
-  <img src="Images/MetroidBanner.png"/>
-  
- ![_alt text_](https://img.shields.io/badge/Platforms-windows_|_macos-blue??style=for-the-badge)
-
-  </h1>
-<h3 align="center">  
-  
-  A remake of Nintendo`s masterpice origin Metroid using Unity & C#
-  </h3>
-  
+# Force-Field
+ 
 ## Table Of Content
 
 - [General](#general)
-- [Installation](#installation)
-- [How To Play](#howtoplay)
-- [Screenshots](#screenshots)
-- [Credits](#credits)  
+- [Photos](#Photos)
 
 ## General
 
-The game was created as part of "Game Development Foundations course" by [NotSlot](https://github.com/notslot) within my Computer Science B.Sc.  
-The original assignment was to recreate an 1980s video game.  
-I personally choose Metroid as i truly belive that this game had a major influence on video games devolopment.  
-  
-**I strongly suggest to check the light mod that I created following this project - [MetroidLightMod](https://github.com/ArnonGuttel/MetroidLightMod)** 
+Advanced Game Development
+Exercise 2
+Alon Levy and Elad maman 
 
-## Installation
+Design inspiration: 
+Our design inspiration was taken from a few things: 
+1. The color - We wanted it to look like a kind of nuclear energy, with some red, purple, and yellow colors.
+2. The moving band - We wanted to have a repetitive pattern that moves across the field, giving it a sort of a "loading" vibe...
+3. The Wave - The inspiration for the wave that moves over the shield came from the look from the star wars movies : 
+The look of how some force shields look like when something hits tham. 
+4 The glow - since our shield is mostly transparent, we wanted a way to give a presentation to the shield at all times.
 
-- Windows:      
-  - &emsp; Download the [WindowsBuild](https://github.com/ArnonGuttel/MetroidRemake/tree/main/WindowsBuild) folder 
-  - &emsp; Run the Metroid Game.exe executable file.
+Design Steps: 
+1. The color - mix of some colors that we think that lock nuclear and added some an online texture with some movement to make it lock alive like energy.
+2. The moving band - We started with moving the band using sin and cos... Waste of time. We've found an easier way to do it using the step node
+3. The Wave - with some help from our beloved teacher we successfully made a function that with time makes the forcefield vertexes move like a circle wave that moves from the bottom to the top.
+4 The glow - We've connected a fractioned time node to a Fresnel effect node and connected that to the alpha as well as the colors of the field
  
- - Mac
-   - &emsp; Download the [MacBuild](https://github.com/ArnonGuttel/MetroidRemake/tree/main/MacBuild.app/Contents) folder 
-   - &emsp; Run the  Mac Build.app_ package
 
-## How&nbsp;To&nbsp;Play
-- Arrow key's to move
-- Down arrow key to start/stop roll (once roll powerup taken)
-- 's' key to fire
-- 'esc' key to pause 
-
-## Screenshots
+What would we improve given more time?
+1. Change the shape of the moving wave to a more complex shape.
+2. Create a different and unique pattern for the colors.
+  
+## Photos
 
   <h3>Gameplay:</h3>
 <p align="center">
- <img src="Images/Gameplay1.jpeg" width="400"/>
- <img src="Images/Gameplay3.jpeg" width="400"/>
- <img src="Images/Gameplay4.jpeg" width="400"/>
- <img src="Images/Gameplay5.jpeg" width="400"/>
+ <img src="Images/Screenshot 2022-08-23 185026.png" width="400"/>
+ <img src="Images/Screenshot 2022-08-23 185113.png" width="400"/>
+ <img src="Images/Screenshot 2022-08-23 185222.png" width="400"/>
+ <img src="Images/WhatsApp Image 2022-08-22 at 2.05.12 PM (1).jpeg" width="400"/>
 </p>
-
-  <h3>Pause Menu:</h3>
- <p align="center">
-  <img src="Images/PauseMenu.jpeg" width="400"/>
- </p>
- 
-  <h3>Game over:</h3>
- <p align="center"> 
-  <img src="Images/GameOverMenu.jpeg" width="400"/>
- </p>
-
-## Credits 
-- Banner Logo - [DivineArt](https://www.deviantart.com/imleerobson/art/Metroid-Title-Screen-Vector-Logo-1987-703268172)
-- Sprites - [Spriters-Resource](https://www.spriters-resource.com/nes/metroid/)
-- Sound Effects - [Sounds-Resource](https://www.sounds-resource.com/nes/metroid/sound/4866/)
